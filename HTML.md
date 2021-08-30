@@ -75,7 +75,7 @@
 
 		- **type** attribute - The type attribute is used to specify which kind of data is to be expected from user.
 			>< input type="text" >
-			- **radio** type - Radio is a type of input type. Basically MCQs.
+			- **radio** type - Radio is a type of input type. Basically MCQs. Should be nested in <a href="#lbl"><b>label</b></a>
 				>< input type="radio" >
 		
 		- **placeholder** attribute - The placeholder attribute is used to display some text in the input field before any data is fed by the user.
@@ -92,4 +92,7 @@
 	- **button** tag - The button tag adds buttons.  
 	*Uses the **type** attribute.*
 		>< button type="Submit">Submit< /button >
-			
+		
+	<p id="lbl"><p>
+
+	- **label** tag - 
