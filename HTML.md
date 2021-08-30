@@ -79,9 +79,14 @@
 		- **placeholder** attribute - The placeholder attribute is used to display some text in the input field before any data is fed by the user.
 			>< input type="text" placeholder="Name" >
 
+		- **required** attribute - The required attribute is used when a form fill is required.
+
 	- **form** tag - The form tag is used to create web forms. This is useful in storing data from the user.  
 		*It is used in conjunction with the **input** and the **action** attributes which specify the data from user and the URL of where said data is to be sent/stored.*
 
 		>< form action="URL of database" >< input type="text" >< /form >
 
+	- **button** tag - The button tag adds buttons.  
+	*Uses the **type** attribute.*
+		>< button type="Submit">Submit< /button >
 			
