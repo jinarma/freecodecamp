@@ -75,11 +75,14 @@
 
 		- **type** attribute - The type attribute is used to specify which kind of data is to be expected from user.
 			>< input type="text" >
+			- **radio** type - Radio is a type of input type. Basically MCQs.
+				>< input type="radio" >
 		
 		- **placeholder** attribute - The placeholder attribute is used to display some text in the input field before any data is fed by the user.
 			>< input type="text" placeholder="Name" >
 
 		- **required** attribute - The required attribute is used when a form fill is required.
+			>< nput type="text" required >
 
 	- **form** tag - The form tag is used to create web forms. This is useful in storing data from the user.  
 		*It is used in conjunction with the **input** and the **action** attributes which specify the data from user and the URL of where said data is to be sent/stored.*
