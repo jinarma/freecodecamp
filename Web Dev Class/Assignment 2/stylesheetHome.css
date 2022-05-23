@@ -1,0 +1,33 @@
+p{
+	color: rgb(23, 23, 124);
+}
+h1{
+	/* color: bisque; */
+	border: 5px, solid, saddlebrown;
+	/* stroke: black;
+	stroke-width: 10px; */
+}
+#lorem{
+	font-family: 'Courier';
+	text-align: center;
+	font-size: 50px;
+}
+body{
+	background-color: yellow;
+}
+
+.title{
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	scale: 2%;
+}
+table{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
