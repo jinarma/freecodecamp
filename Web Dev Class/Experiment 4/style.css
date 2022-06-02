@@ -1,0 +1,23 @@
+body{
+	text-align: center;
+	background: rgb(22, 111, 145);
+		background: linear-gradient(0deg, rgba(22, 111, 145, 1) 0%, rgba(21, 207, 186, 1) 100%);
+}
+
+h2 {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#scuba_diver {
+	border-radius: 8px;
+}
+
+input {
+	border-radius: 7px;
+	text-indent: 5px;
+	
+}
+
+#swim {
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
