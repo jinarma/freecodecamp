@@ -7,7 +7,10 @@
 
 <body>
 	<h2 id="heading">Scuba Diving registration</h2>
-	<img id="scuba_diver" src="https://images.unsplash.com/photo-1570367364062-4ab01ebf0954?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80" alt="slow internet" width="500">
+	<figure>
+		<img id="scuba_diver" src="https://images.unsplash.com/photo-1570367364062-4ab01ebf0954?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80" alt="scuba-diver-underwater" width="500">
+		<figcaption style="color:rgb(0, 0, 0); opacity: .5; font-family:monospace;">come and explore the ocean with us</figcaption>
+	</figure>
 		<form action="background.php">
 			<input type="text" placeholder="Name" required>
 			<div>
@@ -39,11 +42,11 @@
 			</div>
 			<div>
 				<br>
-				<input type="numbers" name="age" id="" placeholder="Age">
+				<input type="numbers" name="age" id="" placeholder="Age" required>
 			</div>
 			<div>
 				<br>
-				<strong>Acknowledgement to agreement:</strong><br><textarea name="text" cols="30" rows="5"></textarea>
+				<strong>Acknowledgement to agreement:</strong><br><textarea name="text" cols="30" rows="5" placeholder="Yes, I understand" required></textarea>
 			</div>
 			<div>
 				<br>
